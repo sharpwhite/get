@@ -3,33 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Impact App</title>
+    <title>Impact App - Your Gateway to Making a Difference</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            line-height: 1.7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #e0f7fa;
+        }
+        main {
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            max-width: 850px;
+            width: 95%;
+        }
+        .logo-link {
+            display: block;
+            margin-bottom: 30px;
+        }
+        .logo {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 12px;
+            object-fit: contain;
+            max-height: 400px;
+        }
+        .app-summary {
+            font-size: 1.15em;
+            color: #555;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        .app-summary h2 {
+            color: #007bff;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .download-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 18px 35px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #1e7e34;
+        }
+        footer {
+            margin-top: 60px; /* Increased top margin for more separation */
+            padding: 40px 0; /* Increased padding */
+            text-align: center;
+            background-color: #e9ecef; /* A light gray background for the footer */
+            border-top: 2px solid #ced4da; /* More visible top border */
+            font-size: 1.1em; /* Slightly larger overall font size in the footer */
+            color: #495057; /* Darker text color */
+            width: 100%;
+        }
+        .creator-names {
+            font-size: 1.3em; /* Larger font size for the names */
+            font-weight: bold; /* Make the names bold */
+            color: #007bff; /* Highlight the names with the primary blue color */
+            margin-bottom: 10px; /* Add some space below the names */
+        }
+        .dedication-text {
+            font-style: italic; /* Add emphasis to the dedication text */
+            color: #6c757d;
+        }
+    </style>
 </head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center;">
-
-    <header style="background-color: #4CAF50; padding: 20px; color: white;">
-        <h1>Welcome to the Impact App</h1>
+<body>
+    <header>
+        <h1>Welcome to Impact App</h1>
+        <p>Making a Difference in Your Community</p>
     </header>
 
-    <main style="padding: 20px;">
-        <!-- Update the src attribute to point to the AFCON logo image file -->
-        <img src="afcon_logo.png" alt="AFCON Logo" style="max-width: 400px; height: auto; margin-bottom: 20px;">
-        <h2 style="color: #333;">Your Gateway to Making an Impact</h2>
-        <p style="color: #555; font-size: 18px;">
-            The Impact App is designed to help you make a difference in your community.
-            Download now to get started!
-        </p>
-        <a href="Impact.apk" download style="text-decoration: none;">
-            <button style="background-color: #4CAF50; color: white; padding: 15px 20px; border: none; border-radius: 5px; font-size: 18px; cursor: pointer;">
-                Download Impact App
-            </button>
+    <main>
+        <a href="https://drive.google.com/file/d/1D9N0VFe7VuV2sXwkNWnJfVBintmbRlZ4/view?usp=sharing" class="logo-link">
+            <img src="logo.PNG" alt="Impact App Logo" class="logo" style="object-fit: contain; max-height: 400px;">
+        </a>
+
+        <div class="app-summary">
+            <h2 style="text-align: center;">About Impact App</h2>
+            <p>Impact App is a dedicated educational resource brought to you by Victoria Hope Nyaphono and Ssali Ibrahim, with a clear vision to empower Senior 4 and Senior 3 students on their journey towards academic excellence. Recognizing the vital role that practice and familiarity with examination formats play in student success, this application offers a carefully curated collection of past papers spanning crucial subjects: Mathematics, Biology, Physics, and Chemistry. Our platform is designed to be more than just a repository of old exams; it's a tool intended to help students deepen their understanding of core concepts, sharpen their problem-solving skills, and build the confidence needed to excel in their examinations. By providing easy access to these valuable resources, Impact App aims to bridge the gap between learning and achievement, fostering a generation of academically strong and well-prepared individuals. Download Impact App today and unlock a wealth of opportunities to master your studies and achieve your full academic potential.</p>
+        </div>
+
+        <a href="https://drive.google.com/file/d/1D9N0VFe7VuV2sXwkNWnJfVBintmbRlZ4/view?usp=sharing" class="download-button">
+            Download Impact App
         </a>
     </main>
 
-    <footer style="background-color: #333; color: white; padding: 10px; position: fixed; width: 100%; bottom: 0;">
-        <p>Contact: <a href="mailto:sharpibrah@gmail.com" style="color: white;">sharpibrah@gmail.com</a></p>
-        <p>Created by: <strong>ssali ibrahim</strong> and <strong>victoria hope</strong></p>
+    <footer>
+        <div class="creator-names">
+            Victoria Hope Nyaphono and Ssali Ibrahim
+        </div>
+        <div class="dedication-text">
+            Dedicated to fostering positive impact.
+        </div>
     </footer>
-
 </body>
 </html>
